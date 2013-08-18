@@ -19,10 +19,10 @@ def is_next_prime(n, m):
   primes = prime_generator(m)
   if m in primes:
     if primes.index(n) == primes.index(m)-1:
-      print "YES"
+      print("YES")
     else:
-      print "NO"
+      print("NO")
   else:
-    print "NO"
+    print("NO")
 
 is_next_prime(n, m)
