@@ -214,3 +214,9 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+### PyCharm ###
+# PyCharm
+# http://www.jetbrains.com/pycharm/webhelp/project.html
+.idea
+.iml
